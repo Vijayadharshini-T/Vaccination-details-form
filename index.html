@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+<title>Register Form Design</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+<body>
+    
+    <form action="vaccine.php" method="POST">
+    <div class="box">
+    
+        <h1>COVID19 VACCINATION DETAILS</h1>
+
+        
+
+            <p><b>Name</b></p>
+            <input type="text" name="uname2" required/>
+           <p><b>Register no</b></p>
+            <input type="text" name="regno" required/>
+            
+   <tr>
+    <td><strong>DOB:</strong></td>
+    <td><input type="date" name="dob" size="35" required/></td>
+    <td>&nbsp;</td>
+  </tr>
+ 
+     
+    
+    
+  
+          
+
+
+    <p><b>Department</b></p>
+    <select name="dept"> 
+	<option>Select..</option>
+    <option value="CSE">CSE</option>
+    <option value="ECE">ECE</option>
+    <option value="EEE">EEE</option>
+      <option value="IT">IT</option>
+      <option value="MBA">MBA</option>
+      <option value="MCA">MCA</option>
+      <option value="MECH">MECH</option>
+      
+</select>
+
+
+    <p><b>Year</b></p>
+    <select name="year">
+	<option>Select..</option>
+    <option value="I year">I year</option>
+    <option value="II year">II year</option>
+    <option value="III year">III year</option>
+      <option value="IV year">IV year</option>
+      
+      
+</select>
+
+ <p><b>Dose completed</b></p>
+    <td><select name="dose">
+	<option>Select..</option>
+    <option value="1st dose">1st dose</option>
+    <option value="2nd dose">2nd dose</option>
+    <option value="None">None</option>
+      
+      
+</select>
+
+             <div id="errorBox"></div>
+            <input type="submit" name="" value="Submit">
+            <a href="vtable.php">     Registered students      </a>
+            <br><br>
+            
+    </form>
+        
+    </div>
+
+</body>
+</head>
+</html>
